@@ -1,0 +1,8 @@
+[package]
+name = "getsid"
+version = "0.1.0"
+edition = "2024"
+description = "The getsid Command Reveals Linux Session Membership, Helping Scripts Determine Whether Processes Belong to the Same Login or Job Control Session"
+
+[dependencies]
+clap = { version = "=4.6.6", default-features = false, features = ["derive", "std", "help", "usage", "error-context", "suggestions"] }
